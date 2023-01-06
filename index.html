@@ -23,13 +23,13 @@
         <section class="Home">
             <div class="cover">
                 <img src="" alt="">
-            </div>
-            <div class="title_home">
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur 
-                    adipisicing elit. Animi magni eveniet 
-                    pariatur ut eum quidem tempore nemo 
-                    necessitatibus molestiae impedit?</p>
+                <div class="title_home">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur 
+                        adipisicing elit. Animi magni eveniet 
+                        pariatur ut eum quidem tempore nemo 
+                        necessitatibus molestiae impedit?</p>
+                </div>
             </div>
         </section>
         <section class="about">
@@ -55,15 +55,28 @@
             </div>
         </section>
         <section class="contact">
-            <form action="" method="get">
-
+            <form class="form" action="" method="get">
+                <label for="name">Name</label>
+                <input name="name" type="text" placeholder="Enter you name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="">
+                <label for="text">Message</label>
+                <input type="text" name="text" id="">
+                <button type="submit">Send</button>
             </form>
         </section>
         <footer class="footer">
+            <div class="footer_message">
+                <div class="footer_p">
+                    <h3 class="footer_title">Robert Rengel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Illum, officia odit harum 
+                        et adipisci molestiae doloremque libero id? Incidunt, eos?</p>
+                </div>
+                <div class="icons_list"></div>
+            </div>
             <div class="copy">
                 <p>copyright</p>
-            </div>
-            <div class="icons">
             </div>
         </footer>
     </main>
