@@ -6,3 +6,38 @@ body, p, h1, h2, h3{
     margin: 0;
     padding: 0;
 }
+
+.navbar{
+  position: absolute;
+  display: flex;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: red;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img{
+  border-radius: 50%;
+  width: 50px;
+}
+
+.menu-navbar{
+  
+}
+
+.home{
+ 
+}
+.cover img{
+  
+  
+  width: 100%;
+}
+
+.hidden{
+  display: none;
+}
