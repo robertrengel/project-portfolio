@@ -1,6 +1,9 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
+
+
 
 body, p, h1, h2, h3{
     margin: 0;
@@ -16,21 +19,22 @@ body, p, h1, h2, h3{
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .logo {
   display: flex;
   align-items: center;
   padding-left: 15px;
+  background-color: red;
 }
 
 .logo img{
-  border-radius: 50%;
+  
   width: 40px;
   margin-right: 10px;
-  border: solid 1px grey;
+  
 }
 
 .logo p{
@@ -43,12 +47,18 @@ body, p, h1, h2, h3{
   
 }
 
-.menu-navbar{
-  padding-right: 20px;
+.menu-options{
+  display: flex;
+  
+  width: 100%;
+  justify-content: center;
 }
 
-.home{
- 
+.menu-options:last-child{
+  padding: 20px;
+
+.menu-icon{
+ padding-right: 10px;
 }
 .cover img{
   
