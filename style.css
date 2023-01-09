@@ -54,8 +54,6 @@ body, p, h1, h2, h3{
   justify-content: center;
 }
 
-.menu-options:last-child{
-  padding: 20px;
 
 .menu-icon{
  padding-right: 10px;
