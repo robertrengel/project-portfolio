@@ -1,7 +1,14 @@
 * {
     margin: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
 }
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white ;
+}
+
 
 
 
@@ -13,27 +20,30 @@ body, p, h1, h2, h3{
 .navbar{
   position: absolute;
   display: flex;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  background-color: white;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  
 }
 
 .logo {
   display: flex;
   align-items: center;
   padding-left: 15px;
-  background-color: red;
+  background-color:#3E426D;
+  padding-top: 15px;
+  padding-bottom: 16px;
+  padding-right: 15px;
+  border-bottom-left-radius: 20px;
 }
 
 .logo img{
+  border: solid 1px white;
+  border-radius: 50%;
+  padding: 4px;
+  width: 32px;
+  background-color: ;
   
-  width: 40px;
-  margin-right: 10px;
   
 }
 
@@ -42,22 +52,45 @@ body, p, h1, h2, h3{
   font-weight: 100;
 }
 
-.menu-icon img{
-  width: 10px;
+.menu-icon{
+  width: 25px;
   
 }
 
 .menu-options{
   display: flex;
-  
+  background-color: white;
   width: 100%;
   justify-content: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-bottom-right-radius: 20px;
+}
+
+.menu-options a{
+ padding-right: 30px;
 }
 
 
-.menu-icon{
- padding-right: 10px;
+.menu-options > a:last-child {
+  
+  padding-right: 0px;
+  
 }
+
+.menu-options--active{
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  padding: 5px;
+}
+
+.menu-options--active p{
+  background-color: red;
+  padding: 0;
+  text-decoration: none;
+}
+
 .cover img{
   
   
