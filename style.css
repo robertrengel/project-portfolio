@@ -12,7 +12,7 @@ a:link, a:visited, a:active {
 
 
 
-body, p, h1, h2, h3{
+body, p, h1, h2, h3, a{
     margin: 0;
     padding: 0;
 }
@@ -29,20 +29,19 @@ body, p, h1, h2, h3{
 .logo {
   display: flex;
   align-items: center;
-  padding-left: 15px;
+  justify-content: center;
   background-color:#3E426D;
-  padding-top: 15px;
-  padding-bottom: 16px;
-  padding-right: 15px;
+  width: 80px;
+  height: 65px;
   border-bottom-left-radius: 20px;
 }
 
 .logo img{
-  border: solid 1px white;
+  border: solid 2px #6e8da3;
   border-radius: 50%;
   padding: 4px;
-  width: 32px;
-  background-color: ;
+  width: 40px;
+  
   
   
 }
@@ -62,33 +61,41 @@ body, p, h1, h2, h3{
   background-color: white;
   width: 100%;
   justify-content: center;
-  padding-top: 17px;
-  padding-bottom: 17px;
+  align-items: center;
+  height: 65px;
   border-bottom-right-radius: 20px;
 }
 
 .menu-options a{
- padding-right: 30px;
+  margin-right: 35px;
+ /* padding-right: 30px; */
+ /* padding-bottom: 5px; */
+ /* padding-top: 5px; */
 }
 
 
 .menu-options > a:last-child {
   
-  padding-right: 0px;
+  margin-right: 0px;
   
 }
 
 .menu-options--active{
   display: flex;
   align-items: center;
-  background-color: blue;
-  padding: 5px;
+  background-color:#6e8da3;
+  padding: 5px 10px;
+  border-radius: 20px;
 }
 
 .menu-options--active p{
-  background-color: red;
-  padding: 0;
+  /* background-color: red; */
+  color: #3E426D;
+  padding-left: 5px;
   text-decoration: none;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
 }
 
 .cover img{
