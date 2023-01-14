@@ -113,3 +113,7 @@ body, p, h1, h2, h3, a{
 .hidden{
   display: none;
 }
+
+.title_home{
+  padding: 8px;
+}
