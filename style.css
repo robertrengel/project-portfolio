@@ -18,7 +18,41 @@ body, p, h1, h2, h3, a{
     font-family: 'Comfortaa', cursive;
     font-family: 'Inter', sans-serif;
 }
+.form{
+  display: flex;
+  justify-content: center;
+  background-color: #6e8da3;
+}
+ul{
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+}
 
+li{
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom:8px;
+  color: #3e426d;
+}
+
+input{
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px #3e426d ;
+  background-color: transparent;
+}
+input:focus{
+  border: none;
+  box-shadow: 0;
+  outline: none;
+  border-bottom: solid 1px #3e426d;
+}
 .navbar{
   position: absolute;
   display: flex;
@@ -114,6 +148,6 @@ body, p, h1, h2, h3, a{
   display: none;
 }
 
-.title_home{
+.title_home, .text_about, .text_projects, .footer_message{
   padding: 8px;
 }
