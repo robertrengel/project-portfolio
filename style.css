@@ -28,7 +28,9 @@ body, p, h1, h2, h3, a{
 .form{
   display: flex;
   justify-content: center;
-  background-color: var(--light-grey);
+  background-color: var(--white);
+  border-top: solid 2px var(--medium-grey);
+  border-bottom: solid 2px var(--medium-grey);
 }
 ul{
   list-style: none;
@@ -45,8 +47,9 @@ li{
 label {
   display: block;
   margin-bottom:8px;
-  color: var(--dark-grey);
-  font-weight: 400;
+  color: var(--medium-grey);
+  font-weight: 600;
+  font-size: 18px;
 }
 
 input{
@@ -65,7 +68,7 @@ input:focus{
 }
 
 input::placeholder{
-  color:var(--medium-grey);
+  color:var(--light-grey);
   font-size: 18px;
 }
 
@@ -169,4 +172,20 @@ input::placeholder{
 
 .title_home, .text_about, .text_projects, .footer_message{
   padding: 8px;
+}
+
+.button{
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  background-color: var(--medium-grey);
+  color: var(--white);
+  padding: 5px;
+}
+
+.title-form{
+  text-align: center;
+  font-size: 22px;
+  color: var(--medium-grey);
+  font-weight: 600;
 }
