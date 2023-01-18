@@ -17,7 +17,9 @@ a:link, a:visited, a:active {
 }
 
 
-
+main{
+  padding-bottom: 20px;
+}
 
 body, p, h1, h2, h3, a{
     margin: 0;
@@ -188,4 +190,13 @@ input::placeholder{
   font-size: 22px;
   color: var(--medium-grey);
   font-weight: 600;
+}
+
+.icons_list{
+  display: flex;
+  justify-content: center;
+}
+
+.copy{
+  text-align: center;
 }
