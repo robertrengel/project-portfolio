@@ -27,6 +27,16 @@ body, p, h1, h2, h3, a{
     font-family: 'Comfortaa', cursive;
     font-family: 'Inter', sans-serif;
 }
+
+header{
+  position: fixed;
+  width: 100%;
+}
+
+section{
+  margin-bottom: 20px;
+}
+
 .form{
   display: flex;
   justify-content: center;
@@ -60,7 +70,7 @@ input{
   border-bottom: solid 1px #3e426d ;
   background-color: transparent;
 }
-input:focus{
+input:focus, input:not(focus){
   border: none;
   box-shadow: 0;
   outline: none;
@@ -73,6 +83,7 @@ input::placeholder{
   color:var(--light-grey);
   font-size: 18px;
 }
+
 
 .navbar{
   position: absolute;
@@ -197,6 +208,22 @@ input::placeholder{
   justify-content: center;
 }
 
+.icons_list li a img{
+  width: 35px;
+}
+
+.icons_list li{
+  padding-left: 10px;
+}
+
+.icons_list li:first-child{
+  padding-left: 0;
+}
+
 .copy{
   text-align: center;
+}
+
+.img_projects img{
+  width: 100%;
 }
