@@ -43,6 +43,11 @@ section{
   background-color: var(--white);
   border-top: solid 2px var(--medium-grey);
   border-bottom: solid 2px var(--medium-grey);
+  
+  border-left: solid 1px var(--medium-grey);
+  border-right: solid 1px var(--medium-grey);
+  margin: 15px;
+  border-radius: 15px;
 }
 ul{
   list-style: none;
