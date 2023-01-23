@@ -183,10 +183,10 @@ input::placeholder{
 }
 
 .cover img{
-  
-  
   width: 100%;
 }
+
+
 
 .img_about img{
   width: 100%;
@@ -243,4 +243,19 @@ input::placeholder{
 
 .footer{
   background-color: var(--dark-grey);
+}
+
+@media screen and (min-width: 768px){
+  .cover{
+    display: flex;
+    margin-top: 70px;
+  }
+
+  .about{
+    display: flex;
+  }
+
+  .projects{
+    display: flex;
+  }
 }
