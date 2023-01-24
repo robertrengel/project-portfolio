@@ -108,6 +108,7 @@ input::placeholder{
   width: 100%;
   justify-content: space-between;
   align-items: center;
+  top: 0;
   
 }
 
@@ -188,6 +189,7 @@ input::placeholder{
 
 .cover img{
   width: 100%;
+  margin-top: 45px;
 }
 
 
@@ -253,8 +255,16 @@ input::placeholder{
 
 @media screen and (min-width: 768px){
   .cover{
+    
     display: flex;
-    margin-top: 70px;
+    align-items: center;
+  }
+  
+  .cover img{
+    width: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    
   }
 
   .about{
@@ -263,5 +273,41 @@ input::placeholder{
 
   .projects{
     display: flex;
+   
+  }
+  
+  .img_projects img{
+    border-top-right-radius: 30%;
+    
+    
+  }
+  
+  .title_home{
+    width: 50%;
+    margin-left: 20px; 
+    margin-right: 20px;
+    
+  }
+  
+  .title_home p{
+    font-size: 22px;
+    text-align: left;
+  }
+  
+  .title_home h2{
+    font-size: 28px
+  }
+  
+  .img_about{
+    order: 1;
+  }
+  
+  .img_about img{
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%
+  }
+  
+  .text_about{
+    order: 0;
   }
 }
