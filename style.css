@@ -39,9 +39,7 @@ header{
 section{
   color:var(--dark-grey);
   margin-bottom: 20px;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 /*section{
   margin-bottom: 20px;
@@ -61,10 +59,9 @@ box-shadow: 10px 10px 60px 3px rgba(0,0,0,0.25);
   display: flex;
   justify-content: center;
   background-color: var(--white);
-  
-  
   border-radius: 15px;
 }
+
 ul{
   list-style: none;
   padding: 10px;
@@ -263,8 +260,17 @@ input::placeholder{
   margin-right: auto;
 }
 
+.contact img{
+  width: 100%;
+}
+
 @media screen and (min-width: 768px){
 
+  section{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .cover{
     
@@ -392,9 +398,7 @@ input::placeholder{
     font-size: 22px;
   }
 
-  input{
-    
-  }
+
 
  
 }
