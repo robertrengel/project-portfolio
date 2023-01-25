@@ -19,6 +19,7 @@ a:link, a:visited, a:active {
 
 main{
   padding-bottom: 0px;
+ 
 }
 
 
@@ -38,6 +39,9 @@ header{
 section{
   color:var(--dark-grey);
   margin-bottom: 20px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*section{
   margin-bottom: 20px;
@@ -253,7 +257,15 @@ input::placeholder{
   color: var(--dark-grey);
 }
 
+.footer_message{
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 768px){
+
+
   .cover{
     
     display: flex;
@@ -269,17 +281,38 @@ input::placeholder{
 
   .about{
     display: flex;
+    align-items: center;
   }
 
   .projects{
     display: flex;
+    align-items: center;
    
+  }
+
+  .img_projects{
+    width: 50%;
   }
   
   .img_projects img{
     border-top-right-radius: 30%;
+    border-bottom-right-radius: 5%;
     
     
+  }
+
+  .text_projects{
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .text_projects h2{
+    font-size: 28px;
+  }
+
+  .text_projects p{
+    font-size: 22px;
   }
   
   .title_home{
@@ -300,6 +333,7 @@ input::placeholder{
   
   .img_about{
     order: 1;
+    width: 50%;
   }
   
   .img_about img{
@@ -309,5 +343,58 @@ input::placeholder{
   
   .text_about{
     order: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50%;
+
   }
+
+  .text_about h2{
+    font-size: 28px;
+  }
+
+  .text_about p{
+    font-size: 22px;
+  }
+
+  .contact{
+    display: flex;
+    align-items: center;
+  }
+
+  .contact img{
+    order: 1;
+    width: 50%;
+    
+    object-fit: cover;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+
+  .contact form{
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  form{
+    height: 480px;
+    
+  }
+
+  form ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  label{
+    font-size: 22px;
+  }
+
+  input{
+    
+  }
+
+ 
 }
