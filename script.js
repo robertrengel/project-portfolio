@@ -24,4 +24,24 @@ links.forEach(link =>{
     }
   })})
   
-  
+//funcion que desplaza el scroll
+links.forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+    const targetId = link.getAttribute('href').slice(1);
+    console.log(targetId)
+    scrollToSection(targetId)
+    
+  });
+});
+
+
+const scrollToSection = (id) => {
+    let section = document.getElementById(id);
+    let position = section.offsetTop;
+    window.scroll({
+      top: position,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }
