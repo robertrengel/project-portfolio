@@ -1,0 +1,7 @@
+<svg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='24' height='24' stroke='none' fill='#000000' opacity='0'/>
+
+
+<g transform="matrix(0.77 0 0 0.77 12 12)" >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" translate(-15, -16.95)" d="M 21 4 L 25 4 L 25 8 L 21 8 z M 25 22.754 C 25 24.104000000000003 24.683 28.553 20.758 29.903000000000002 L 17 28 C 19.806 26.776 21 24.8 21 22.753999999999998 C 21 19.926 21 11 21 11 L 25 11.002 C 25 11.002 25 19.715 25 22.754 z M 14 4 L 14 10.302 C 13.531 10.110999999999999 12.52 10.074 12.022 10.074 C 8.273 10.074 5 12.011 5 17 C 5 22.969 9.504 23.997 12.65 23.997 C 13.892 23.997 16.65 23.875 18 23.483999999999998 L 18 4 L 14 4 z M 12.609 20.666 C 10.84 20.666 9 19.863 9 17 C 9 14.137 10.84 13.531 12.609 13.531 C 13.041 13.531 13.527 13.612 14 13.72 L 14 20.477 C 13.528 20.584 13.042 20.666 12.609 20.666 z" stroke-linecap="round" />
+</g>
+</svg>
