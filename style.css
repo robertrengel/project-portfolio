@@ -273,12 +273,21 @@ input::placeholder{
 }
 
 .skills h2{
-  text-justify: center;
+  text-align: center;
 }
 
 .skills_img img{
   flex-wrap: 50%;
   width: 33.33%;
+}
+
+.skills_img img:nth-child(1){
+  background-color: red;
+}
+
+.skills_img img:nth-child(2){
+  background-color: red;
+  clip-path: polygon(10% 10%,10% 10%,10% 10%,10% 10%)
 }
 
 /* ----------------------------------------------
